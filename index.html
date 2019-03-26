@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form Validation</title>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/default.js"></script>
+    <link rel="stylesheet" href="myStyle.css" />
+</head>
+<body>
+    <header>
+        <h1>All form validation</h1>
+        <hr />
+        <nav>
+            <a href="#" class="selected" target="_self">HTML FORM</a>
+            <a href="JaScFoVa.html" target="_self">JavaScript FORM</a>
+            <a href="JqScFoVa.html" target="_self">Jquery FORM</a>
+            <a href="async.html" target="_self">Async FORM</a>
+        </nav>
+    </header>
+    <section>
+        <div id="mainContent">
+            <h3>HTML form validation</h3>
+            <hr/>
+            <form id="fContact" onsubmit="" method="get">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div>
+                        <label for="firstName">First Name</label><br />
+                        <input type="text" id="fname" name="fname" placeholder="Enter First Name" required />
+                    </div>
+                    <div>
+                        <label for="lstName">Last Name</label><br />
+                        <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required />
+                    </div>
+                    <div>
+                        <label for="email">First Name</label><br />
+                        <input type="email" id="email" name="Ex: emailAddress" placeholder="hhsdjl@gmail.com" required />
+                    </div>
+                    <div>
+                        <label for="message">First Name</label><br />
+                        <textarea type="text" id="message" name="message" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit" id="btnSubmit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <footer>Reserve all Copy right &copy; Md. Forid Gazi</footer>
+</body>
+</html>
